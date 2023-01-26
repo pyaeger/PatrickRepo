@@ -1,11 +1,17 @@
 print('It is all Foobar!')
 
 
-number = 10
+number = 10_000_450
 print('number =', number)
 
 person = 'John Doe'
 print(person)
+print(type(person))
+
+float_value = 12.0
+
+print(float_value)
+print(type(float_value))
 
 
 

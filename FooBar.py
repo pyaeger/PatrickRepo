@@ -13,7 +13,24 @@ float_value = 12.0
 print(float_value)
 print(type(float_value))
 
+#casting strings to integers then using the round function to round up with 2 decimal places
 
+value1 = "8"
+value2 = "3"
+
+final = int(value1) / int(value2)
+print(round(final,2))
+print(type(final))
+
+final = int(value1) % int(value2)
+print(final)
+print(type(final))
+
+# Order of Operations
+# PEMDAS (Please Excuse My Dear Aunt Sally)
+# parenthesis exponents multiplication division addition subtraction
+
+print(2 + 9 * 4 / 3 - 5)
 
 
 # git clone (download the repo to your pc)

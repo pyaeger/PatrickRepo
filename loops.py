@@ -6,3 +6,7 @@ for i in morning:
     
     print("Action: ", i)
 
+for x in dinner:
+
+    print("Place: ", x)
+
